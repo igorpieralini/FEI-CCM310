@@ -1,0 +1,2 @@
+package me.pieralini.Aula6.Exercicio4;
+public class MovablePoint implements Movable { int x,y,xSpeed,ySpeed; public MovablePoint(int x,int y,int xs,int ys){this.x=x;this.y=y;xSpeed=xs;ySpeed=ys;} @Override public String toString(){return "("+x+","+y+") speed=("+xSpeed+","+ySpeed+")";} public void moveUp(){y+=ySpeed;} public void moveDown(){y-=ySpeed;} public void moveLeft(){x-=xSpeed;} public void moveRight(){x+=xSpeed;} }

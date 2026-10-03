@@ -1,0 +1,2 @@
+package me.pieralini.Aula5.Exercicio4;
+import java.util.*; public class Loja { public static void main(String[] args){ArrayList<Produto> p=new ArrayList<>();p.add(new Livro("Clean Code",90,"Robert Martin","Tecnologia"));p.add(new Livro("Duna",70,"Frank Herbert","Ficcao"));p.add(new CD("Album",40,"Faixa 1","Faixa 2"));p.add(new DVD("Matrix",35,136));p.add(new DVD("Interestelar",45,169));p.forEach(System.out::println);} }

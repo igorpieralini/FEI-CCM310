@@ -1,0 +1,2 @@
+package me.pieralini.Aula5.Exercicio5;
+public class Gerente extends Funcionario { private String departamento; private Data promocaoGerente; public Gerente(String n,String c,Data nasc,Data adm,double s,String dep,Data prom){super(n,c,nasc,adm,s);departamento=dep;promocaoGerente=prom;} public String getDepartamento(){return departamento;} @Override public String toString(){return super.toString()+" | departamento: "+departamento+" | promocao: "+promocaoGerente;} }

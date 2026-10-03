@@ -1,0 +1,1 @@
+package me.pieralini.Aula6.Exercicio4; public class Main { public static void main(String[] args){MovablePoint p=new MovablePoint(0,0,2,3);MovableCircle c=new MovableCircle(5,5,10,1,1);p.moveRight();p.moveUp();c.moveLeft();c.moveDown();System.out.println(p);System.out.println(c);} }

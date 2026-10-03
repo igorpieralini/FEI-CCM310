@@ -1,0 +1,2 @@
+package me.pieralini.Aula5.Exercicio5;
+import java.util.*; public class Main { public static void main(String[] args){ArrayList<Funcionario> f=new ArrayList<>();ArrayList<Gerente> g=new ArrayList<>();f.add(new Funcionario("Ana","1",new Data(1,1,2000),new Data(1,2,2025),3500));g.add(new Gerente("Bruno","2",new Data(2,2,1990),new Data(1,1,2020),9000,"TI",new Data(1,1,2024)));f.forEach(x->{System.out.println(x);System.out.println(x.getSalario());});g.forEach(x->{System.out.println(x);System.out.println(x.getDepartamento());});} }

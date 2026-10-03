@@ -1,0 +1,2 @@
+package me.pieralini.Aula5.Exercicio6;
+public class Account { protected double balance; public Account(double b){if(b>=0)balance=b;else{balance=0;System.out.println("Saldo inicial invalido");}} public void credit(double v){if(v>0)balance+=v;} public boolean debit(double v){if(v<=balance&&v>=0){balance-=v;return true;}System.out.println("Saldo insuficiente");return false;} public double getBalance(){return balance;} }

@@ -1,0 +1,1 @@
+package me.pieralini.Aula6.Exercicio5; public class Empresario extends Agente { private String empresa; public Empresario(String n,String e){super(n,"Empresario");empresa=e;} public void apresentacao(){if(smith())return;System.out.println(nome+" - "+profissao+" - empresa: "+empresa);} }

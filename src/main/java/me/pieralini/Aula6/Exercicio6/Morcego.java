@@ -1,0 +1,1 @@
+package me.pieralini.Aula6.Exercicio6; public class Morcego extends Animal implements IWalkable,IFlyable { public Morcego(String nome){super(nome);} public void andar(){System.out.println(nome+" esta andando");} public void voar(){System.out.println(nome+" esta voando");} }

@@ -1,0 +1,1 @@
+package me.pieralini.Aula6.Exercicio5; public class Professor extends Agente { private String escola; public Professor(String n,String e){super(n,"Professor");escola=e;} public void apresentacao(){if(smith())return;System.out.println(nome+" - "+profissao+" - escola: "+escola);} }

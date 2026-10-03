@@ -1,0 +1,2 @@
+package me.pieralini.Aula6.Exercicio4;
+public class MovableCircle implements Movable { private int radius; private MovablePoint center; public MovableCircle(int x,int y,int r,int xs,int ys){center=new MovablePoint(x,y,xs,ys);radius=r;} @Override public String toString(){return "Circle center="+center+" radius="+radius;} public void moveUp(){center.moveUp();} public void moveDown(){center.moveDown();} public void moveLeft(){center.moveLeft();} public void moveRight(){center.moveRight();} }

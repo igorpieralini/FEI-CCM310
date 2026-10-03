@@ -1,0 +1,1 @@
+package me.pieralini.Aula6.Exercicio5; public class Advogado extends Agente { private String OAB; public Advogado(String n,String o){super(n,"Advogado");OAB=o;} public void apresentacao(){if(smith())return;System.out.println(nome+" - "+profissao+" - OAB: "+OAB);} }

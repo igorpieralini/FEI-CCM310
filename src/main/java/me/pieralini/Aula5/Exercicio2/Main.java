@@ -1,0 +1,3 @@
+package me.pieralini.Aula5.Exercicio2;
+import java.util.*;
+public class Main { static String ler(Scanner s,String m){System.out.print(m);return s.nextLine();} public static void main(String[] args){Scanner s=new Scanner(System.in);ArrayList<Prefeito> p=new ArrayList<>();ArrayList<Vereador> v=new ArrayList<>();for(int i=0;i<3;i++)p.add(new Prefeito(ler(s,"Nome prefeito: "),ler(s,"Partido: "),ler(s,"Municipio: "),ler(s,"Estado: ")));for(int i=0;i<3;i++)v.add(new Vereador(ler(s,"Nome vereador: "),ler(s,"Partido: "),ler(s,"Municipio: "),ler(s,"Estado: ")));p.forEach(Politico::apresentacao);v.forEach(Politico::apresentacao);} }

@@ -1,0 +1,2 @@
+package me.pieralini.Aula5.Exercicio3;
+public class NavioDeGuerra extends Navio { protected double blindagem,ataque; public NavioDeGuerra(int n,String nome,double blindagem,double ataque){super(n,nome);this.blindagem=blindagem;this.ataque=ataque;} public void poderDeFogo(){System.out.println("Poder de fogo: "+ataque);} public void exibirArmas(){exibirInfoGeral();System.out.println("Blindagem: "+blindagem);poderDeFogo();} }
