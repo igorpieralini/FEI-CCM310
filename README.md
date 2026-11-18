@@ -1,79 +1,98 @@
 # CCM310 — Programação Orientada a Objetos
 
-Repositório destinado às atividades, exercícios e materiais da disciplina **CCM310**.
+<sub>Disciplina acadêmica · Ciência da Computação · Centro Universitário FEI</sub>
 
-## Disciplina
+<br/>
+
+Repositório destinado às atividades, exercícios e materiais desenvolvidos ao longo da disciplina **CCM310 — Programação Orientada a Objetos**, organizados por aula e conteúdo.
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=1" alt=""/>
+
+<div align="center">
+
+### <samp>// disciplina</samp>
 
 **CCM310 — Programação Orientada a Objetos**
 
----
+<samp>2º semestre de 2026 · Ciência da Computação</samp>
 
-## Plano de Ensino
+**Docente responsável**
 
-[**Clique aqui para consultar o Plano de Ensino**](https://moodle.fei.edu.br/pluginfile.php/3270/course/section/1872/CCM310_22026.pdf?time=1787247331610)
+Profa. Dra. Gabriela Biondi
 
----
+</div>
 
-## Cálculo da Nota Final
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=1" alt=""/>
 
-* **LB** — Participação nas atividades de laboratório (0 a 10)
-* **PJ** — Projeto (0 a 10)
-* **P1** — Avaliação Parcial (0 a 10)
-* **P2** — Avaliação Final (0 a 10)
-* **P3** — Prova Substitutiva — substitui a nota P1 ou P2, caso a média não tenha sido atingida
-* **NF** — Nota Final
+<div align="center">
 
----
+### <samp>// conteúdo programático</samp>
 
-## Critério de Aprovação
+<samp>Classes · Objetos · Construtores · Encapsulamento</samp>
 
-Para ser considerado aprovado na disciplina, o aluno deve:
+<samp>Herança · Polimorfismo · Upcasting · Downcasting</samp>
 
-* Ter **pelo menos 75% de presença**
-* Obter **nota final maior ou igual a 5,0**
+<samp>Sobrecargas · Classes Abstratas · Interfaces · UML</samp>
 
----
+<samp>Arquitetura de Software · Design Patterns</samp>
 
-## Ementa
+<samp>MVC · MVVM · Refatoração · Versionamento</samp>
 
-* Introdução à Programação Orientada a Objetos (POO)
-* Conceitos de Classes e Objetos
-* Construtores
-* Encapsulamento
-* Herança
-* Polimorfismo
-* Upcasting e Downcasting
-* Sobrecargas
-* Classes Abstratas
-* Interfaces
-* Introdução à UML
-* Princípios de Arquitetura de Software e Design de Sistemas
-* Padrões de Projeto (Design Patterns)
-* Arquiteturas MVC e MVVM
-* Refatoração de Código e Melhoria Contínua
-* Versionamento de Código e Controle de Versão
+</div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=1" alt=""/>
 
-## Objetivo
+<div align="center">
 
-Apresentar técnicas de resolução de problemas algorítmicos segundo o paradigma de **Programação Orientada a Objetos**; compreender, discutir e analisar as diferentes ferramentas e técnicas existentes para o planejamento e o desenvolvimento de software orientado a objetos.
+### <samp>// avaliação</samp>
 
----
+| **LB** | **PJ** | **P1** | **P2** | **P3** |
+|:---:|:---:|:---:|:---:|:---:|
+| Laboratório | Projeto | Parcial | Final | Substitutiva |
 
-## Turma de Orientação
+<br/>
 
-### Docente Responsável
+**NF — Nota Final**
 
-**Profa. Dra. Gabriela Biondi**
+**Critérios de aprovação**
 
-Os estudantes registrados nas turmas de orientação deverão realizar todas as atividades avaliativas, conforme descrito no Plano de Estudos.
+Presença mínima `75%` · Nota final `≥ 5,0`
 
----
+<sub>P3 substitui a nota P1 ou P2, conforme os critérios de avaliação da disciplina.</sub>
 
-## Conteúdo do Repositório
+</div>
 
-O repositório contém os exercícios e materiais desenvolvidos ao longo da disciplina, organizados por aula.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=1" alt=""/>
+
+<div align="center">
+
+### <samp>// objetivo</samp>
+
+</div>
+
+Apresentar técnicas de resolução de problemas algorítmicos segundo o paradigma de **Programação Orientada a Objetos**, compreendendo, discutindo e analisando ferramentas e técnicas para o planejamento e desenvolvimento de software orientado a objetos.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=1" alt=""/>
+
+<div align="center">
+
+### <samp>// plano de ensino</samp>
+
+[**Consultar Plano de Ensino (PDF)**](https://moodle.fei.edu.br/pluginfile.php/3270/course/section/1872/CCM310_22026.pdf?time=1787247331610)
+
+<sub>As atividades avaliativas devem ser realizadas conforme as orientações do Plano de Ensino.</sub>
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=1" alt=""/>
+
+<div align="center">
+
+### <samp>// organização do projeto</samp>
+
+</div>
 
 ```text
 FEI-CCM310/
@@ -87,11 +106,23 @@ FEI-CCM310/
                     ├── Aula4/
                     ├── Aula5/
                     ├── Aula6/
+                    ├── Aula7/
+                    ├── Aula8/
+                    ├── Aula9/
+                    ├── Aula11
+                    ├── Aula12
+                    ├── Aula13
                     └── PPTX/
 ```
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=1" alt=""/>
 
-## Autor
+<div align="center">
+
+### <samp>// autor</samp>
 
 **Igor Pieralini**
+
+<samp>Ciência da Computação · Centro Universitário FEI</samp>
+
+</div>
